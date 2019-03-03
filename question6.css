@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    background-color: #666d8a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #f2f1f7;
+    max-width: 500px;;
+    padding: 5%;
+    margin: 10% auto;
+    position: relative;
+}
+
+h1{
+    position: absolute;;
+    top: 100px;
+    left: 40%;
+    background-color: #f2f1f7;
+    text-align: center;
+    padding: 0 2%;
+    font-weight: 500;
+}
+
+hr{
+    margin: 5%;
+}
+
+p#first{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+input{
+    width: 97.3%;
+    padding: 1%;
+    margin: 2% 0;
+}
+
+input:nth-child(1){
+    width: 46%;
+    margin-right: 0px;
+}
+
+input:nth-child(2){
+    width: 47%;
+    margin-left: 3px;
+}
+
+#check p{
+    display: inline;
+    color: #747474;
+}
+
+#check p a{
+    color: #32c659;
+    text-decoration: none;
+}
+
+input#accept{
+    margin-right: 10px;
+    /* padding-right: 20%; */
+    display: inline;
+    width: 4%;
+}
+
+button{
+    background-image: linear-gradient(to bottom, #32c659, #05a842);
+    margin: 2% 0;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border: 0;
+    color: white;
+}
+
+#account{
+    position: absolute;
+    bottom: -40px;
+    left: 30%;
+    color: white;
+}
+
+#account a{
+    color: white;
+}
